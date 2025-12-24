@@ -4,11 +4,11 @@ local StarterGui = game:GetService("StarterGui")
 local Player = Players.LocalPlayer
 getgenv().Config = {
     Team = "Marines",
-    DelayLoad = 5
+    DelayLoad = 3
 }
 local NOTIFY_TITLE = "khanhlyHUB Loader"
 local NOTIFY_ICON = "rbxassetid://111450164466537"
-local NOTIFY_TIME = 5
+local NOTIFY_TIME = 15
 local callCount = 0
 local MAX_CALL = 2
 local function SetTeam()
